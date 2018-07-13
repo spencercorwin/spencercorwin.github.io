@@ -1,17 +1,5 @@
-.font {
-  font-family: Arial;
-}
-
-.bold {
-
-}
-
-.color {
-  color: black;
-}
-
-.style {
-
+body {
+  font-family: sans-serif;
 }
 
 
@@ -35,6 +23,6 @@
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #4B0082;
   color: white;
 }
