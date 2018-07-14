@@ -1,5 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
+}
+
+p {
+  margin: auto 0;
+  overflow: scroll;
+}
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4B0082;
+    color: white;
+    text-align: center;
 }
 
 
