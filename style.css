@@ -21,7 +21,6 @@ p {
     text-align: center;
 }
 
-
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -44,4 +43,51 @@ p {
 .topnav a.active {
   background-color: #4B0082;
   color: white;
+}
+
+#section1 {
+  background-color:white;
+}
+#section2 {
+  background-color:white;
+  margin: 20px 0px 0px 0px
+}
+#section3 {
+  background-color:white;
+  margin: 20px 0px 0px 0px
+}
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#footer {
+  margin: 20px 0px 0px 0px;
+  background-color: white;
+}
+
+#backgroundbackground {
+  background-color: white;
+}
+
+div {
+  font-family: Calibri, sans-serif;
 }
