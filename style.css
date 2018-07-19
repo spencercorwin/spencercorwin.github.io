@@ -21,6 +21,34 @@ p {
   background-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.main {
+  margin-top: 90px;
+}
+
+.past {
+  background-color: blue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.present {
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.future {
+  background-color: black;
+  border: 0;
+  margin-top: -1;
+  margin-bottom: -1;
 }
 
 .footer {
