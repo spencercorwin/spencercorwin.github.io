@@ -2,21 +2,7 @@
   box-sizing: border-box;
 }
 
-.padding {
-  padding-right: 200px;
-  padding-left: 200px;
-}
-
-.body {
-  background-color: white;
-}
-
-p {
-  margin: auto 0;
-  overflow: scroll;
-}
-
-.topnav {
+header {
   overflow: hidden;
   background-color: black;
   padding-top: 10px;
@@ -26,32 +12,43 @@ p {
   top: 0;
 }
 
+.padding {
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+body {
+  background-color: white;
+}
+
+p {
+  margin: auto 0;
+  overflow: scroll;
+}
+
 .main {
   margin-top: 90px;
 }
 
-.past {
-  background-color: blue;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.content {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.firstblock {
+  background-color: orange;
   margin-top: -20px;
-  margin-bottom: -20px;
 }
 
-.present {
-  background-color: black;
-  margin-top: 0px;
-  margin-bottom: 0px;
+.secondblock {
+  background-color: purple;
 }
 
-.future {
-  background-color: black;
-  border: 0;
-  margin-top: -1;
-  margin-bottom: -1;
+.thirdblock {
+  background-color: blue;
 }
 
-.footer {
+footer {
     position: sticky;
     left: 0;
     bottom: 0;
@@ -63,13 +60,17 @@ p {
     padding-bottom: 20px;
 }
 
+footer p {
+  text-align: left;
+}
+
 #logo {
   float: left;
   text-align: center;
   font-size: 16px;
 }
 
-.topnav a {
+header a {
   float: right;
   color: white;
   text-align: center;
@@ -78,7 +79,7 @@ p {
   font-size: 16px;
 }
 
-.topnav a:hover {
+header a:hover {
   color: black;
   background-color: white;
 }
