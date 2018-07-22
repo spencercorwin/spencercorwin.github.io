@@ -3,7 +3,7 @@
 }
 
 header {
-  overflow: hidden;
+  overflow: visible;
   background-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -22,8 +22,8 @@ body {
 }
 
 p {
-  margin: auto 0;
   overflow: scroll;
+  margin: 0 auto;
 }
 
 .main {
@@ -36,16 +36,24 @@ p {
 }
 
 .firstblock {
-  background-color: orange;
+  background-color: #c1440e;
   margin-top: -20px;
 }
 
 .secondblock {
-  background-color: purple;
+  background-color: #e77d11;
 }
 
 .thirdblock {
-  background-color: blue;
+  background-color: #fda600;
+}
+
+.fourthblock {
+  background-color:#f0e7e7;
+}
+
+.fifthblock {
+  background-color: #c1440e;
 }
 
 footer {
@@ -82,4 +90,10 @@ header a {
 header a:hover {
   color: black;
   background-color: white;
+}
+
+img {
+  border-radius: 3px;
+  max-width: 180px;
+  max-height: auto;
 }
