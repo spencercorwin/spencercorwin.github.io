@@ -4,14 +4,7 @@
 <head>
   <title>HOA Market Analysis</title>
   <meta charset="utf-8">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
   <link href="./styles/style.css" rel="stylesheet" type="text/css"/>
-  <link rel="icon" type="image/x-icon" href="./images/favicons/favicon.ico" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <meta content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -22,13 +15,60 @@
 
 
   <main class="main">
+    <div class="padding">
+      <p>Input the address of the area that you want analyzed.</p>
+      <br>
+      <form id="input">
+        Street: <input>
+        <br>
+        City: <input>
+        <br>
+        State: <input>
+        <br>
+        Zip: <input>
+        <br>
+      </form>
+    </div>
 
+    <div class="padding">
+      <button onClick="myFunction()">Submit</button>
+      <p id="demo"></p>
+    </div>
 
+    <div class="padding">
+      <table>
+        <tr>
+          <th>Address</th>
+          <th>Mi From Subject</th>
+          <th>Beds, Baths</th>
+          <th>SF</th>
+          <th>Sale Price</th>
+          <th>Price/SF</th>
+          <th>Zestimate</th>
+          <th>Zestimate/SF</th>
+          <th>Prev Sale Price</th>
+          <th>Prev Price/SF</th>
+          <th>Appreciation</th>
+        </tr>
+        <tr>
+          <td>321 Avocado St</td>
+          <td>1</td>
+          <td>2, 3</td>
+          <td>3000</td>
+          <td>40000</td>
+          <td>xxx</td>
+          <td>50000</td>
+          <td>xxx</td>
+          <td>30000</td>
+          <td>xxx</td>
+          <td>100%</td>
+        </tr>
+      </table>
+    </div>
 
   </main>
 
   <footer>
-
   </footer>
 
   <noscript>Javascript must be enabled to view this content</noscript>
