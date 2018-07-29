@@ -42,33 +42,6 @@ p {
   padding-bottom: 20px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 10px;
-}
-
-.firstblock {
-  background-color: white;
-  margin-top: -20px;
-}
-
-.secondblock {
-  background-color: white;
-}
-
-.thirdblock {
-  background-color: white;
-}
-
-.fourthblock {
-  background-color: white;
-}
-
-.fifthblock {
-  background-color: white;
-}
-
 footer {
     left: 0;
     bottom: 0;
