@@ -30,7 +30,7 @@ body {
 p {
   overflow: scroll;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .main {
@@ -106,7 +106,7 @@ header a:hover {
 
 img {
   border-radius: 0.5px;
-  max-width: 180px;
+  max-width: 100%;
   max-height: auto;
   position: static;
   left: 0;
