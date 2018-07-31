@@ -16,6 +16,7 @@ header {
 
 h1 {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .padding {
