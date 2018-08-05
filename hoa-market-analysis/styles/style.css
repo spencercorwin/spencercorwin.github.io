@@ -59,11 +59,12 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: white;
+    background-color: rgba(0,0,0,1);
     color: white;
-    text-align: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
 }
 
 footer p, h3 {
@@ -96,4 +97,17 @@ img {
   max-height: auto;
   position: static;
   left: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.topleft {
+  grid-column: 1;
+}
+
+.topright {
+  grid-column: 2;
 }
