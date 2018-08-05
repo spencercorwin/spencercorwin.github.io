@@ -7,21 +7,28 @@ function myFunction() {
   const state = document.getElementById('input').elements[2].value;
   const zip = document.getElementById('input').elements[3].value;
 
-  const zillowid = 'X1-ZWz18s1gn1k8i3_4pyss';
-  const onboardid = '5215982201c2dc2795e611519b5bb324';
+  const zillowid = '';
+  const onboardid = '';
 
-  const address1 = street;
-  const address2 = city + ',' + state;
+  const address1 = street.split(' ').join('+');
+  const address2 = city.split(' ').join('+') + '+' + state;
   const radius = '0.05';
   const page = '1';
   const pagesize = '10';
-  //Call Onboard API, input address data to get list of nearby props
+  //Call Onboard API, input address data to get list of nearby props to input address
   const xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElement
-    }
-  }
+  //Format url with address input pulled from HTML form
+  const url = `https://search.onboard-apis.com/propertyapi/v1.0.0/property/address?address1=${address1}&address2=${address2}&radius=${radius}&page=${page}&pagesize=${pagesize}`;
+  //Send GET request to Onboard API
+  xhttp.open('GET', url);
+  xhttp.setRequestHeader('accept', 'application/json');
+  xhttp.setRequestHeader('apikey', onboardid);
+  xhttp.send();
+  xhttp.onreadystatechange = (e) => {
+    let onboardresponse = xhttp.responseText;
+    let onboardresponse2 = JSON.parse(onboardresponse);
+    console.log(onboardresponse2.property[0].address.oneLine);
+  };
   //Get relevant data, store for use in table
   //Stores list of props in vicinity
   //Call Zillow API with list of props, get relevant data, store for use in table
