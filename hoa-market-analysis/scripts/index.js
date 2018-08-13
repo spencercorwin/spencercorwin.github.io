@@ -7,8 +7,8 @@ function myFunction() {
   const state = document.getElementById('input').elements[2].value;
   const zip = document.getElementById('input').elements[3].value;
 
-  const zillowid = '';
-  const onboardid = '';
+  const zillowID = '';
+  const onboardID = '7cebbeb50357f7ae3b4022bee529a1b1';
 
   const address1 = street.split(' ').join('+');
   const address2 = city.split(' ').join('+') + '+' + state;
@@ -22,13 +22,17 @@ function myFunction() {
   //Send GET request to Onboard API
   xhttp.open('GET', url);
   xhttp.setRequestHeader('accept', 'application/json');
-  xhttp.setRequestHeader('apikey', onboardid);
+  xhttp.setRequestHeader('apikey', onboardID);
   xhttp.send();
-  xhttp.onreadystatechange = (e) => {
-    let onboardresponse = xhttp.responseText;
-    let onboardresponse2 = JSON.parse(onboardresponse);
-    console.log(onboardresponse2.property[0].address.oneLine);
+  let onboardResponseText;
+  let onboardResponseText2;
+  xhttp.onreadystatechange = function(e) {
+    onboardResponseText = xhttp.responseText;
+    onboardResponseText2 = JSON.parse(onboardResponseText);
+    //console.log(onboardResponse2.property[0].address.oneLine);
+    return onboardResponseText2;
   };
+  console.log(onboardResponseText);
   //Get relevant data, store for use in table
   //Stores list of props in vicinity
   //Call Zillow API with list of props, get relevant data, store for use in table
