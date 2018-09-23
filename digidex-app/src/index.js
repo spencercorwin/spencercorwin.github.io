@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Router from 'react-router';
+import Route from 'react-router';
+import Switch from 'react-router';
 import './index.css';
 
 class App extends React.Component {
