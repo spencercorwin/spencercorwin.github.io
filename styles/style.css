@@ -16,7 +16,6 @@ header {
 
 h1 {
   font-weight: bold;
-  padding-bottom: 10px;
   text-decoration: underline;
 }
 
@@ -56,12 +55,18 @@ p {
 }
 
 .secondblock {
-  grid-column-gap: 10px;
   background-color: white;
 }
 
 .thirdblock {
-  grid-column-gap: 10px;
+  background-color: white;
+}
+
+.fourthblock {
+  background-color: white;
+}
+
+.fifthblock {
   background-color: white;
 }
 
