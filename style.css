@@ -49,25 +49,22 @@ p {
   grid-column-gap: 10px;
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+  background-color: #283747;
+  border-radius: 5px;
+  margin: 4px;
+  padding: 20px;
+  color: white;
+}
+
 .firstblock {
   background-color: white;
   margin-top: -20px;
-}
-
-.secondblock {
-  background-color: white;
-}
-
-.thirdblock {
-  background-color: white;
-}
-
-.fourthblock {
-  background-color: white;
-}
-
-.fifthblock {
-  background-color: white;
 }
 
 footer {
@@ -111,4 +108,25 @@ img {
   max-height: auto;
   position: static;
   left: 0;
+}
+
+footer h3 {
+  text-decoration: underline;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #009688;
+}
+
+@media only screen and (max-width: 750px) {
+  #logo {
+    display: none;
+  }
+  header {
+
+  }
 }

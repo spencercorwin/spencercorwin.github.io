@@ -4,11 +4,14 @@
 <head>
   <title>Spencer Corwin</title>
   <meta charset="utf-8">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-  <link href="./styles/style.css" rel="stylesheet" type="text/css"/>
-  <link rel="icon" type="image/x-icon" href="./images/favicons/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Spencer Corwin's Personal Website">
+  <meta name="keywords" content="personal, website, webpage, spencer corwin, developer, software">
+  <meta name="author" content="Spencer Corwin">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="./assets/favicons/favicon.ico" />
+  <link href="./style.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -30,7 +33,7 @@
         <h1>Post-Grad Beginnings</h1>
         <div class="grid">
           <div>
-            <img src="./images/photos/posing.jpg">
+            <img src="./assets/images/posing.jpg">
           </div>
           <div>
             <p>
@@ -46,7 +49,7 @@
         <h1>The Wider World</h1>
         <div class="grid">
           <div>
-            <img src="./images/photos/paragliding.jpg">
+            <img src="./assets/images/paragliding.jpg">
           </div>
           <div>
             <p>
@@ -65,7 +68,7 @@
         <h1>Adventures in Finance</h1>
         <div class="grid">
           <div>
-            <img src="./images/photos/clocktower.jpg">
+            <img src="./assets/images/clocktower.jpg">
           </div>
           <div>
             <p>
@@ -80,7 +83,7 @@
       <div class="fourthblock content padding">
         <h1>A New Beginning</h1>
         <div class="grid">
-          <img src="./images/photos/forest.jpg">
+          <img src="./assets/images/forest.jpg">
           <p>
             It was in late 2017 that I then read How to Create a Mind by Ray Kurzweil and had my interest sufficiently peaked. Kurzweil goes into the technical details of how the human brain works and how computer software can be used to create artificial intelligence. Reading this book made me realize the absolutely world-changing and still largely-untapped potential for software. It was right then that I decided I had to learn how to code and commit myself 100% to this field.
           <p>
@@ -91,7 +94,7 @@
     <div>
       <div class="fifthblock content padding">
         <div class="grid">
-          <img src="./images/photos/coding.jpg">
+          <img src="./assets/images/coding.jpg">
           <p>
             I now pour as much time and energy as possible into learning to code.
           <p>
@@ -101,29 +104,11 @@
 
     </div>
 
-    <div id="projects">
-      <div class="content fourthblock padding">
-        <h1>My Projects</h1>
-        <div class="row">
-          <div class="col-sm-4 col-md-4">
-            <div class="thumbnail">
-              <a href="https://spencercorwin.com/"><img src="./images/photos/code.png" alt="project image"></a>
-              <div class="caption">
-                <h1>HOA Property Value Analysis (WIP)</h1>
-                <p>Produces an Excel spreadsheet of comps given an address</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4 col-md-4">
-            <div class="thumbnail">
-              <a href="https://spencercorwin.com"><img src="./images/photos/rolodex.jpg" alt="project image"></a>
-              <div class="caption">
-                <h1>Digidex App</h1>
-                <p>A personal CRM for anyone to simply and easily keep track of their acquaintances</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div id="projects" class="content padding">
+      <h1>My Projects</h1>
+      <div class="projects-grid">
+        <a class="grid-item">HOA Property Value Analysis (WIP)</a>
+        <a class="grid-item">Digidex App</a>
       </div>
     </div>
 
@@ -142,7 +127,7 @@
   </footer>
 
   <noscript>Javascript must be enabled to view this content</noscript>
-  <script src="./scripts/index.js"></script>
+  <script src="./index.js"></script>
 
 </body>
 </html>
