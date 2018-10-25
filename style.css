@@ -1,132 +1,55 @@
-* {
-  box-sizing: border-box;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-  Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-
-header {
-  overflow: visible;
-  background-color: rgba(0,0,0,1);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  position: fixed;
+html {
   width: 100%;
-  top: 0;
-}
-
-h1 {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.padding {
-  padding-right: 180px;
-  padding-left: 180px;
+  margin-bottom: 60px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
 body {
-  background-color: white;
-}
-
-p {
-  overflow: scroll;
-  margin: 0 auto;
-  font-size: 20px;
-}
-
-.main {
-  margin-top: 90px;
-}
-
-.content {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 10px;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.grid-item {
-  background-color: #283747;
-  border-radius: 5px;
-  margin: 4px;
-  padding: 20px;
-  color: white;
-}
-
-.firstblock {
-  background-color: white;
-  margin-top: -20px;
-}
-
-footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,1);
-    color: white;
-    text-align: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-footer p, h3 {
+  width: 60%;
+  margin: auto;
   text-align: left;
 }
 
-#logo {
-  float: left;
+h1 {
+  width: 100%;
   text-align: center;
-  font-size: 18px;
-}
-
-header a {
-  float: right;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-header a:hover {
-  color: rgba(0,0,0,1);
-  background-color: white;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 
 img {
-  border-radius: 0.5px;
-  max-width: 100%;
-  max-height: auto;
-  position: static;
-  left: 0;
+  width: 100%;
+  height: auto;
 }
 
-footer h3 {
-  text-decoration: underline;
+#photo {
+  width: 49%;
+  float: left;
 }
 
-footer a {
-  color: white;
+#content {
+  width: 49%;
+  float: right;
+  margin-top: -20px;
 }
 
-footer a:hover {
-  color: #009688;
+a {
+  color: blue;
 }
 
-@media only screen and (max-width: 750px) {
-  #logo {
-    display: none;
-  }
-  header {
+p {
+  font-size: 20px;
+}
 
-  }
+@media only screen and
+  (max-width: 600px) {
+    #photo {
+      width: 100%;
+    }
+    #content {
+      width: 100%;
+    }
+    body {
+      width: 80%;
+    }
 }
