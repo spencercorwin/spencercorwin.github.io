@@ -52,4 +52,7 @@ p {
     body {
       width: 80%;
     }
+    .fadeIn, .bounceIn, .slideRight {
+
+    }
 }
