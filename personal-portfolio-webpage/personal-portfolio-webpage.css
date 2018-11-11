@@ -93,16 +93,15 @@ footer a:hover {
   color: black;
 }
 
-@media only screen
-  and (max-width: 600px) {
-    #nav-bar, .flex-container {
-      display: none;
-    }
-    #grid-container {
-      grid-template-columns: 1fr;
-    }
-    .project-tile {
-      grid-column-start: 1;
-      grid-column-end: 1;
-    }
+@media only screen and (max-width: 600px) {
+  #nav-bar, .flex-container {
+    display: none;
+  }
+  #grid-container {
+    grid-template-columns: 1fr;
+  }
+  .project-title {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
 }
