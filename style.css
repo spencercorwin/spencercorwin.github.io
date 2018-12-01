@@ -31,6 +31,7 @@ img {
   width: 49%;
   float: right;
   margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -39,6 +40,33 @@ a {
 
 p {
   font-size: 20px;
+}
+
+#collapsible {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+#collapsible:hover {
+  background-color: grey;
+}
+
+#projects {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  max-height: 0;
+  transition: max-height 1s ease-out;
 }
 
 @media only screen and
