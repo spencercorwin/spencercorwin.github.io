@@ -1,5 +1,3 @@
-const projectName = "heat-map";
-
 const getData = (() => {
   const request = new XMLHttpRequest();
   request.open('GET', 'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/global-temperature.json', true);
