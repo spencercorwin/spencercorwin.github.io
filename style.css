@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  width: 60%;
+  width: 66%;
   margin: auto;
   text-align: left;
 }
@@ -23,15 +23,38 @@ img {
 }
 
 #photo {
+  order: 1;
   width: 49%;
-  float: left;
+  height: auto;
 }
 
 #content {
+  order: 2;
   width: 49%;
-  float: right;
+  height: auto;
   margin-top: -20px;
-  margin-bottom: 20px;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+}
+
+#bottom {
+  padding-top: 0px;
+
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#bottom a {
+  text-decoration: none;
 }
 
 a {
@@ -39,7 +62,7 @@ a {
 }
 
 p {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #collapsible {
@@ -75,12 +98,21 @@ p {
   text-decoration: underline;
 }
 
+li {
+  margin-left: 10px;
+}
+
 @media only screen and
   (max-width: 600px) {
+    #top {
+      flex-wrap: wrap;
+    }
     #photo {
+      order: 2;
       width: 100%;
     }
     #content {
+      order: 1;
       width: 100%;
     }
     body {

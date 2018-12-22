@@ -1,6 +1,0 @@
-# HOA Market Analysis
-
-This application is meant to be used to analyze property values in a given area. You can view the application hosted [here](spencercorwin.com/hoa-market-analysis).
-
-This started as an idea for how I could automate a weekly work task that involved pulling data manually from
-Zillow into an MS Excel spreadsheet. This webpage will simplify that process by using the [Zillow API](https://www.zillow.com/howto/api/APIOverview.htm) and [OnBoard API](https://developer.onboard-apis.com/home). I currently work at a commercial bank as a loan originator and underwriter. When we analyze the viability of a loan we want to be sure we have a source of repayment of the loan if the borrower is unable to make payments and ends up defaulting. To do this we secure collateral for the loan, in which case we need to be able to understand the liquidation value of that collateral. As many people know, real estate is commonly used as collateral for loans. This tool is meant to analyze collateral value of the homes and condos in a home-owners association. Thus, the page will take input in the form of an address and return a table of nearby homes and condos with relevant data to analyze the collateral value of homes and condos in the subject's area.
