@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.425bfd91.chunk.css",
-  "main.js": "/static/js/main.3a7b23eb.chunk.js",
-  "main.js.map": "/static/js/main.3a7b23eb.chunk.js.map",
-  "static/js/1.46bac5c5.chunk.js": "/static/js/1.46bac5c5.chunk.js",
-  "static/js/1.46bac5c5.chunk.js.map": "/static/js/1.46bac5c5.chunk.js.map",
+  "main.css": "/static/css/main.3214e97b.chunk.css",
+  "main.js": "/static/js/main.204f3ea1.chunk.js",
+  "main.js.map": "/static/js/main.204f3ea1.chunk.js.map",
+  "static/js/1.cdf310da.chunk.js": "/static/js/1.cdf310da.chunk.js",
+  "static/js/1.cdf310da.chunk.js.map": "/static/js/1.cdf310da.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/guatape-min.jpeg": "/static/media/guatape-min.51af6710.jpeg",
@@ -14,9 +14,9 @@
   "static/media/freecodecamp-information-security-and-quality-assurance-certification.png": "/static/media/freecodecamp-information-security-and-quality-assurance-certification.2158002b.png",
   "static/media/freecodecamp-javascript-algorithms-and-data-structures-certification.png": "/static/media/freecodecamp-javascript-algorithms-and-data-structures-certification.ae47c4e2.png",
   "static/media/freecodecamp-responsive-web-design-certification.png": "/static/media/freecodecamp-responsive-web-design-certification.c63aeee7.png",
-  "static/media/spencer-corwin-resume.png": "/static/media/spencer-corwin-resume.6a592e02.png",
-  "static/css/main.425bfd91.chunk.css.map": "/static/css/main.425bfd91.chunk.css.map",
+  "static/media/spencer-corwin-resume.png": "/static/media/spencer-corwin-resume.9d29c151.png",
+  "static/css/main.3214e97b.chunk.css.map": "/static/css/main.3214e97b.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.76784864f497323334eedae5db65d1e8.js": "/precache-manifest.76784864f497323334eedae5db65d1e8.js",
+  "precache-manifest.d28dc02d07e82d63dcb0f0c9cfd56285.js": "/precache-manifest.d28dc02d07e82d63dcb0f0c9cfd56285.js",
   "service-worker.js": "/service-worker.js"
 }
