@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/freecodecamp-apis-and-microservices-certification.d5fca47b.png"
   },
   {
-    "revision": "32ebe111ac59eb1c54e3",
+    "revision": "b6b6917f9d4f22641a7a",
     "url": "/static/css/main.340a1ee8.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/guatape-min.51af6710.jpeg"
   },
   {
-    "revision": "9d29c151871826290b2bf4b33172d2ec",
-    "url": "/static/media/spencer-corwin-resume.9d29c151.png"
+    "revision": "147ddb21da7dfc990ee1cdcaf6d89f31",
+    "url": "/static/media/spencer-corwin-resume.147ddb21.png"
   },
   {
     "revision": "ce7d44ea90f6da439e74d16b9cdaacb9",
     "url": "/static/media/freecodecamp-full-stack-certification.ce7d44ea.png"
   },
   {
-    "revision": "32ebe111ac59eb1c54e3",
-    "url": "/static/js/main.32ebe111.chunk.js"
+    "revision": "b6b6917f9d4f22641a7a",
+    "url": "/static/js/main.b6b6917f.chunk.js"
   },
   {
     "revision": "684c67a5685cb001a2925000a2e05070",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/freecodecamp-responsive-web-design-certification.c63aeee7.png"
   },
   {
-    "revision": "441d733770a502e9b7bda7d5ea1df23b",
+    "revision": "f92399edb67f378f8f2fe597587b1ca6",
     "url": "/index.html"
   }
 ];
