@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/freecodecamp-apis-and-microservices-certification.d5fca47b.png"
   },
   {
-    "revision": "b6b6917f9d4f22641a7a",
-    "url": "/static/css/main.340a1ee8.chunk.css"
+    "revision": "2e03373d4df45bda0eac",
+    "url": "/static/css/main.c31371d6.chunk.css"
   },
   {
     "revision": "cdf310daeb04c5742240",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/freecodecamp-full-stack-certification.ce7d44ea.png"
   },
   {
-    "revision": "b6b6917f9d4f22641a7a",
-    "url": "/static/js/main.b6b6917f.chunk.js"
+    "revision": "2e03373d4df45bda0eac",
+    "url": "/static/js/main.2e03373d.chunk.js"
   },
   {
     "revision": "684c67a5685cb001a2925000a2e05070",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/freecodecamp-responsive-web-design-certification.c63aeee7.png"
   },
   {
-    "revision": "f92399edb67f378f8f2fe597587b1ca6",
+    "revision": "52e48bb5b4a2185202e5e4e8480c0261",
     "url": "/index.html"
   }
 ];
