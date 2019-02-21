@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "d5fca47b19c14057d29277ea7909220b",
-    "url": "/static/media/freecodecamp-apis-and-microservices-certification.d5fca47b.png"
+    "revision": "160df806871bfb4ce783",
+    "url": "/static/css/main.6f1bee8c.chunk.css"
   },
   {
-    "revision": "2e03373d4df45bda0eac",
-    "url": "/static/css/main.c31371d6.chunk.css"
+    "revision": "160df806871bfb4ce783",
+    "url": "/static/js/main.160df806.chunk.js"
   },
   {
-    "revision": "cdf310daeb04c5742240",
-    "url": "/static/js/1.cdf310da.chunk.js"
+    "revision": "fb89b3d53affad815627",
+    "url": "/static/js/1.fb89b3d5.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/guatape-min.51af6710.jpeg"
   },
   {
-    "revision": "147ddb21da7dfc990ee1cdcaf6d89f31",
-    "url": "/static/media/spencer-corwin-resume.147ddb21.png"
+    "revision": "cfe3674ff9fb08f056a2fcc5f788423c",
+    "url": "/static/media/spencer-corwin-resume.cfe3674f.png"
   },
   {
     "revision": "ce7d44ea90f6da439e74d16b9cdaacb9",
     "url": "/static/media/freecodecamp-full-stack-certification.ce7d44ea.png"
   },
   {
-    "revision": "2e03373d4df45bda0eac",
-    "url": "/static/js/main.2e03373d.chunk.js"
+    "revision": "d5fca47b19c14057d29277ea7909220b",
+    "url": "/static/media/freecodecamp-apis-and-microservices-certification.d5fca47b.png"
   },
   {
     "revision": "684c67a5685cb001a2925000a2e05070",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/freecodecamp-responsive-web-design-certification.c63aeee7.png"
   },
   {
-    "revision": "52e48bb5b4a2185202e5e4e8480c0261",
+    "revision": "deebcb9b984b2f157f2cfd24cd390637",
     "url": "/index.html"
   }
 ];
