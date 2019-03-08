@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.6f1bee8c.chunk.css",
-  "main.js": "/static/js/main.47aa7470.chunk.js",
-  "main.js.map": "/static/js/main.47aa7470.chunk.js.map",
+  "main.css": "/static/css/main.ac1072ed.chunk.css",
+  "main.js": "/static/js/main.b4307b2c.chunk.js",
+  "main.js.map": "/static/js/main.b4307b2c.chunk.js.map",
   "static/js/1.fb89b3d5.chunk.js": "/static/js/1.fb89b3d5.chunk.js",
   "static/js/1.fb89b3d5.chunk.js.map": "/static/js/1.fb89b3d5.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/guatape-min.jpeg": "/static/media/guatape-min.51af6710.jpeg",
-  "static/media/spencer-corwin-resume.png": "/static/media/spencer-corwin-resume.cfe3674f.png",
+  "static/media/spencer-corwin-resume.png": "/static/media/spencer-corwin-resume.c8e699e9.png",
   "static/media/freecodecamp-full-stack-certification.png": "/static/media/freecodecamp-full-stack-certification.ce7d44ea.png",
   "static/media/freecodecamp-apis-and-microservices-certification.png": "/static/media/freecodecamp-apis-and-microservices-certification.d5fca47b.png",
   "static/media/freecodecamp-data-visualization-certification.png": "/static/media/freecodecamp-data-visualization-certification.684c67a5.png",
@@ -15,8 +15,8 @@
   "static/media/freecodecamp-information-security-and-quality-assurance-certification.png": "/static/media/freecodecamp-information-security-and-quality-assurance-certification.2158002b.png",
   "static/media/freecodecamp-javascript-algorithms-and-data-structures-certification.png": "/static/media/freecodecamp-javascript-algorithms-and-data-structures-certification.ae47c4e2.png",
   "static/media/freecodecamp-responsive-web-design-certification.png": "/static/media/freecodecamp-responsive-web-design-certification.c63aeee7.png",
-  "static/css/main.6f1bee8c.chunk.css.map": "/static/css/main.6f1bee8c.chunk.css.map",
+  "static/css/main.ac1072ed.chunk.css.map": "/static/css/main.ac1072ed.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b59bf1a63776c33ebb4187398dcd7f6e.js": "/precache-manifest.b59bf1a63776c33ebb4187398dcd7f6e.js",
+  "precache-manifest.65b08385b8a56422ec431d263afc344d.js": "/precache-manifest.65b08385b8a56422ec431d263afc344d.js",
   "service-worker.js": "/service-worker.js"
 }
