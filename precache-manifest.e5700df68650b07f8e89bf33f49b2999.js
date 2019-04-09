@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6ce5dc695221cdb4ec66",
+    "revision": "f1b7ed937db74882e08c",
     "url": "/static/css/main.ac1072ed.chunk.css"
   },
   {
-    "revision": "6ce5dc695221cdb4ec66",
-    "url": "/static/js/main.6ce5dc69.chunk.js"
+    "revision": "f1b7ed937db74882e08c",
+    "url": "/static/js/main.f1b7ed93.chunk.js"
   },
   {
     "revision": "fb89b3d53affad815627",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/freecodecamp-responsive-web-design-certification.c63aeee7.png"
   },
   {
-    "revision": "c6e50f301fc1d0cd9bebeb716e3a2a57",
+    "revision": "6ada3e99a4c1bc8d6cf8cc8306f6dfe6",
     "url": "/index.html"
   }
 ];
