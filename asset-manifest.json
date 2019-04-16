@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.ac1072ed.chunk.css",
-  "main.js": "/static/js/main.f1b7ed93.chunk.js",
-  "main.js.map": "/static/js/main.f1b7ed93.chunk.js.map",
+  "main.js": "/static/js/main.d8ca837b.chunk.js",
+  "main.js.map": "/static/js/main.d8ca837b.chunk.js.map",
   "static/js/1.fb89b3d5.chunk.js": "/static/js/1.fb89b3d5.chunk.js",
   "static/js/1.fb89b3d5.chunk.js.map": "/static/js/1.fb89b3d5.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -17,6 +17,6 @@
   "static/media/freecodecamp-responsive-web-design-certification.png": "/static/media/freecodecamp-responsive-web-design-certification.c63aeee7.png",
   "static/css/main.ac1072ed.chunk.css.map": "/static/css/main.ac1072ed.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.e5700df68650b07f8e89bf33f49b2999.js": "/precache-manifest.e5700df68650b07f8e89bf33f49b2999.js",
+  "precache-manifest.4138eec812f376bd3446915e0396d42d.js": "/precache-manifest.4138eec812f376bd3446915e0396d42d.js",
   "service-worker.js": "/service-worker.js"
 }
