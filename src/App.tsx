@@ -21,30 +21,36 @@ const Content = styled.div`
 
 const App = () =>  {
   const [dark, setDark] = React.useState(true);
-
   const toggleDarkMode = () => {
-    if (dark) {
-      document.getElementsByTagName('html')[0].style.background = '#121212';
-    } else {
-      document.getElementsByTagName('html')[0].style.background = 'white';
-    }
-    setDark(!dark);
+    const newDark = !dark;
+    newDark ? setToDark() : setToLight();
+  };
+  const setToDark = () => {
+    document.getElementsByTagName('html')[0].style.background = 'white';
+    setDark(true);
     localStorage.setItem(
       'darkmode',
-      JSON.stringify({ dark: dark ? false : true }),
+      JSON.stringify({ dark: true }),
+    );
+  };
+  const setToLight = () => {
+    document.getElementsByTagName('html')[0].style.background = '#121212';
+    setDark(false);
+    localStorage.setItem(
+      'darkmode',
+      JSON.stringify({ dark: false }),
     );
   };
 
   React.useEffect(() => {
     const cachedToggle = localStorage.getItem('darkmode');
-    if (cachedToggle) {
+    if (cachedToggle != null) {
       const cachedToggleJSON = JSON.parse(cachedToggle);
-      setDark(cachedToggleJSON.dark);
-      if (!cachedToggleJSON.dark) {
-        document.getElementsByTagName('html')[0].style.background = '#121212';
-      }
+      cachedToggleJSON.dark ? setToDark() : setToLight();
+    } else {
+      setToLight();
     }
-  }, [dark])
+  }, []);
 
     return (
       <div
