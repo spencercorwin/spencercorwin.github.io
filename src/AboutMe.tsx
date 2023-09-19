@@ -2,10 +2,12 @@ import React from 'react';
 
 const AboutMe = () => (
     <div id='aboutme'>
-      <h3>About Me</h3>
-      <p>
-        I'm working on some cool stuff. Stay tuned!
-      </p>
+      <h3>What I'm Working On</h3>
+      <ul>
+        <li>
+          <a href='https://microgreenmanager.com'>Microgreen Manager</a>
+        </li>
+      </ul>
     </div>
   );
   
